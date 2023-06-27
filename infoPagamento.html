@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Informações de Pagamento</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="infoStyles.css">
+</head>
+<body>
+
+<body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="C:/Users/jpber/Desktop/Agenda 07 - Desenvolvimento Web - Formulários/index.html">JFK</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Início <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Destinos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pacotes</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Entrar
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="login.html" >Login</a>
+          <a class="dropdown-item" href="cadastro.html">Cadastrar-se</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+    </header>
+
+
+  <div class="container">
+    <div class="payment-form">
+      <h2>Informações de Pagamento</h2>
+      <form>
+        <div class="form-group">
+          <label for="cardholder-name">Nome do Titular do Cartão</label>
+          <input type="text" class="form-control" id="cardholder-name" placeholder="Digite o nome do titular do cartão">
+        </div>
+        <div class="form-group">
+          <label for="card-number">Número do Cartão</label>
+          <input type="text" class="form-control" id="card-number" placeholder="Digite o número do cartão">
+        </div>
+        <div class="form-group">
+          <label for="expiration-date">Data de Expiração</label>
+          <input type="text" class="form-control" id="expiration-date" placeholder="Digite a data de expiração (mm/aaaa)">
+        </div>
+        <div class="form-group">
+          <label for="cvv">CVV</label>
+          <input type="text" class="form-control" id="cvv" placeholder="Digite o código de segurança (CVV)">
+        </div>
+        <div class="form-group">
+          <label for="installments">Parcelas</label>
+          <select class="form-control" id="installments">
+            <option value="1">1x sem juros</option>
+            <option value="2">2x sem juros</option>
+            <option value="3">3x sem juros</option>
+            <option value="4">4x sem juros</option>
+            <option value="5">5x sem juros</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="total-amount">Valor Total</label>
+          <input type="text" class="form-control" id="total-amount" value="R$ 1.000,00" disabled>
+        </div>
+        <a href="agradecimento.html"><button type="button" class="btn btn-primary submit-button">Finalizar Pagamento</button></a>
+      </form>
+    </div>
+  </div>
+  <footer>
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-menu">
+       <ul>
+            <li><a href="#">Início</a></li>
+            <li><a href="#">Destinos</a></li>
+            <li><a href="#">Pacotes</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2023 JPBervalt All rights reserved.</p>
+  </div>
+    </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

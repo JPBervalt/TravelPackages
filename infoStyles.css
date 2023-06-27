@@ -1,0 +1,58 @@
+  .container {
+      margin-top: 50px;
+    }
+
+    .payment-form {
+      max-width: 500px;
+      margin: 0 auto;
+    }
+
+    .payment-form h2 {
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      font-weight: bold;
+    }
+
+    .submit-button {
+      margin-top: 20px;
+    }
+    /*Estilo do footer*/
+ footer {
+     background-color: #f2f2f2;
+     padding: 20px 0;
+}
+
+ .footer-content {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: center;
+}
+ .footer-menu ul {
+     list-style: none;
+     padding: 0;
+     margin: 0;
+}
+ .footer-menu li {
+     display: inline-block;
+     margin-right: 15px;
+}
+ .footer-menu a {
+     color: #333;
+     text-decoration: none;
+}
+
+ .footer-bottom {
+     text-align: center;
+     margin-top: 20px;
+}
+ .footer-bottom p {
+     font-size: 14px;
+     color: #777;
+}

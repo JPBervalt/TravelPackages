@@ -1,0 +1,34 @@
+ .container {
+      margin-top: 50px;
+    }
+
+    .package-info {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .package-info img {
+      width: 300px;
+      height: 200px;
+      object-fit: cover;
+      margin-right: 20px;
+      margin-bottom: 20px;
+    }
+
+    .package-description {
+      flex: 1;
+      margin-bottom: 20px;
+    }
+
+    .package-description h2 {
+      margin-top: 0;
+    }
+
+    .package-price {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .buy-button {
+      margin-bottom: 20px;
+    }

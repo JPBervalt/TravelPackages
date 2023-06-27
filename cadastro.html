@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="loginStyles.css">
+
+    <title>JFK Viagens</title>
+  </head>
+  <body>
+    <header>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="C:/Users/jpber/Desktop/Agenda 07 - Desenvolvimento Web - Formulários/index.html">JFK</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="C:/Users/jpber/Desktop/Agenda 07 - Desenvolvimento Web - Formulários/index.html">Início <span class="sr-only"></span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Destinos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pacotes</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Entrar
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="login.html">Login</a>
+          <a class="dropdown-item" href="cadastro.html">Cadastrar-se</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+    </header>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="card-body">
+        <h1 class="card-title text-center">Formulário de Cadastro</h1>
+        <form>
+          <div class="mb-3">
+            <label for="name" class="form-label">Nome Completo</label>
+            <input type="text" class="form-control" id="name" placeholder="Digite seu nome completo">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">E-mail</label>
+            <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail">
+          </div>
+          <div class="mb-3">
+            <label for="birthdate" class="form-label">Data de Nascimento</label>
+            <input type="text" class="form-control" id="birthdate" placeholder="dd/mm/aaaa">
+          </div>
+          <div class="mb-3">
+            <label for="state" class="form-label">Estado</label>
+            <select class="form-select" id="state">
+              <option selected>Selecione o estado</option>
+              <option>Acre</option>
+              <option>Alagoas</option>
+              <option>Amapá</option>
+              <option>Amazonas</option>
+              <option>Bahia</option>
+              <option>Ceará</option>
+              <option>Distrito Federal</option>
+              <option>Espírito Santo</option>
+              <option>Goiás</option>
+              <option>Maranhão</option>
+              <option>Mato Grosso</option>
+              <option>Mato Grosso do Sul</option>
+              <option>Minas Gerais</option>
+              <option>Pará</option>
+              <option>Paraíba</option>
+              <option>Paraná</option>
+              <option>Pernambuco</option>
+              <option>Piauí</option>
+              <option>Rio de Janeiro</option>
+              <option>Rio Grande do Norte</option>
+              <option>Rio Grande do Sul</option>
+              <option>Rondônia</option>
+              <option>Roraima</option>
+              <option>Santa Catarina</option>
+              <option>São Paulo</option>
+              <option>Sergipe</option>
+              <option>Tocantins</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <label for="address" class="form-label">Endereço</label>
+            <input type="text" class="form-control" id="address" placeholder="Digite seu endereço">
+          </div>
+          <div class="mb-3">
+            <label for="gender" class="form-label">Sexo</label><br>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="gender" id="gender-male" value="male">
+              <label class="form-check-label" for="gender-male">Masculino</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="gender" id="gender-female" value="female">
+              <label class="form-check-label" for="gender-female">Feminino</label>
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="interests" class="form-label">Categorias de Interesse</label><br>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="interest-beach" value="beach">
+              <label class="form-check-label" for="interest-beach">Praia</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="interest-field" value="field">
+              <label class="form-check-label" for="interest-field">Campo</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="interest-national" value="national">
+              <label class="form-check-label" for="interest-national">Nacionais</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="interest-international" value="international">
+              <label class="form-check-label" for="interest-international">Internacionais</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="interest-mountain" value="mountain">
+              <label class="form-check-label" for="interest-mountain">Serra</label>
+            </div>
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="checkbox" id="interest-city" value="city">
+              <label class="form-check-label" for="interest-city">Cidade</label>
+            </div>
+          </div>
+          <div class="mb-3">
+            <label for="username" class="form-label">Login</label>
+            <input type="text" class="form-control" id="username" placeholder="Digite seu login">
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label">Senha</label>
+            <input type="password" class="form-control" id="password" placeholder="Digite sua senha">
+          </div>
+          <div class="mb-3">
+            <label for="confirm-password" class="form-label">Confirmar Senha</label>
+            <input type="password" class="form-control" id="confirm-password" placeholder="Confirme sua senha">
+          </div>
+          <div class="mb-3">
+            <button type="reset" class="btn btn-secondary">Limpar</button>
+            <a href="infoPagamento.html"><button type="button" class="btn btn-primary">Salvar</button></a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+    <footer>
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-menu">
+       <ul>
+            <li><a href="../index.html">Início</a></li>
+            <li><a href="#">Destinos</a></li>
+            <li><a href="#">Pacotes</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2023 JPBervalt All rights reserved.</p>
+  </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</html>
